@@ -49,6 +49,39 @@ a:focus,
   height: 100%;
   background-color: rgba(255, 255, 255, 0.8);
 }
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+  overflow: hidden;
+}
+form .form-group .form-control {
+  height: 44px;
+  border-radius: 0px;
+}
+form .form-group .textarea {
+  height: 120px;
+}
+.title-lg {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+.btn {
+  padding: 11px 44px 10px;
+  border-radius: 0px;
+  font-weight: 500;
+  font-size: 16px;
+}
+.btn-yellow {
+  background: #f3a020;
+  color: #fff;
+}
+.btn-yellow:hover {
+  background-color: #d5850b;
+  color: #fff;
+}
 /*
 ----------------------------------
 3.home-screen
@@ -303,4 +336,112 @@ a:focus,
     left: 4%;
     right: initial;
   }
+}
+/*
+-----------------------
+page-menu
+-----------------------
+*/
+.page-menu {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+  border-radius: 0px;
+  margin-bottom: 0px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+.page-menu .navbar-brand {
+  max-width: 360px;
+  padding: 5px 15px;
+}
+.page-menu .navbar-brand img {
+  max-width: 100%;
+  position: relative;
+  top: -12px;
+}
+.page-menu .nav li a {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333;
+}
+.shrink-nav {
+  padding-top: 10px;
+  padding-bottom: 6px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s;
+  -moz-transition: all .2s;
+  -o-transition: all .2s;
+  transition: all .2s;
+}
+.shrink-nav .navbar-brand {
+  max-width: 290px;
+  padding: 5px 15px;
+}
+.shrink-nav .navbar-brand img {
+  top: -13px;
+}
+/*
+-----------------------
+copy-right-p
+-----------------------
+*/
+.copy-right-p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 100%;
+  font-size: 13px;
+  background-color: #333;
+}
+.copy-right-p p {
+  margin-bottom: 0px;
+  color: #ddd;
+}
+/*
+-----------------------
+section-contact-p
+-----------------------
+*/
+.section-contact-p .contact-details {
+  margin-left: 50px;
+  background-color: #f3a020;
+  padding: 40px 35px 20px;
+  color: #171717;
+  position: relative;
+  z-index: 100;
+}
+.section-contact-p .contact-details .rotate {
+  position: absolute;
+  transform: rotate(90deg);
+  right: -28%;
+  bottom: 18%;
+}
+.section-contact-p .contact-details h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.section-contact-p .contact-details p {
+  margin-bottom: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+.section-contact-p .dotted-pattern {
+  width: 200px;
+  position: absolute;
+  right: -12%;
+  top: -18%;
+}
+.section-contact-p .map {
+  margin-top: 60px;
+  padding: 10px 10px 4px;
+  border: 1px solid #ddd;
 }

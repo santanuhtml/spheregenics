@@ -23,14 +23,11 @@
   </head>
   <!-- <body style="background-image:url('img/home-background.jpg'); background-size: cover;
     background-position: top;"> -->
-    <video autoplay muted loop id="myVideo">
-		  <source src="video/home-video.mp4" type="video/mp4">
-		</video>
-		<style type="text/css">
-			
-		</style>
-    <body>
-    	<div class="overlay"></div>
+  <video autoplay muted loop id="myVideo">
+	  <source src="video/home-video.mp4" type="video/mp4">
+	</video>
+  <body>
+  	<div class="overlay"></div>
   	<div class="section home-screen">
   		<div class="image-content">
   			<div class="container">
